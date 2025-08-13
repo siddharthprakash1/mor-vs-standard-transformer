@@ -1,0 +1,8 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Do NOT commit large model weights
+*.pt
