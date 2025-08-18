@@ -51,47 +51,6 @@ This repository contains a comprehensive implementation and comparison study of 
 - **MoR Adaptation**: Custom routing and recursion layers
 - **Comparative Analysis**: Direct performance comparison
 
----
-
-## 📁 Project Structure
-
-```
-mor-vs-standard-transformer/
-├── 🧠 Core Implementations
-│   ├── mor_minimal.py              # Clean MoR implementation
-│   ├── standard_transformer.py     # Standard transformer baseline
-│   ├── gemma.py                   # Gemma 3 270M standard training
-│   └── gemma_mor_implementation.py # Gemma + MoR integration
-│
-├── 🚀 Training Scripts
-│   ├── train_mor.py               # MoR model training
-│   ├── train_standard_transformer.py # Standard model training
-│   └── tokenizer_utils.py         # Tokenization utilities
-│
-├── 📊 Visualization & Analysis
-│   ├── visualize_training.py      # Comprehensive dashboard
-│   └── images_results/            # Training result visualizations
-│       ├── loss_comparison.png
-│       ├── architecture_radar.png
-│       ├── performance_leaderboard.png
-│       └── training_efficiency.png
-│
-├── 📈 Training Data & Results
-│   ├── training_metrics_400m.json           # MoR 400M results
-│   ├── training_metrics.json                # Standard model results
-│   ├── gemma_mor_training_stats_*.json      # Gemma MoR results
-│   ├── standard_gemma_training_stats_*.json # Gemma standard results
-│   ├── mor_training_data.json               # MoR training curves
-│   ├── standard_training_data.json          # Standard training curves
-│   └── gemma_mor_training_data.json         # Gemma MoR curves
-│
-└── 📚 Documentation
-    ├── README.md                  # This file
-    └── 2507.10524v2.pdf          # Original MoR research paper
-```
-
----
-
 ## 🚀 Quick Start
 
 ### Prerequisites
