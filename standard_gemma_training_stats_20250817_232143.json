@@ -1,0 +1,149 @@
+{
+  "experiment_info": {
+    "model_name": "Standard Gemma 3 270M",
+    "timestamp": "2025-08-17T23:16:48.282836",
+    "device": "cuda",
+    "gpu_name": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+    "gpu_memory_gb": 8.585281536
+  },
+  "hyperparameters": {
+    "learning_rate": 0.0001,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 128,
+    "num_epochs": 1,
+    "max_batches": 400,
+    "scheduler": "CosineAnnealingLR"
+  },
+  "training_progress": [
+    {
+      "step": 5,
+      "batch": 40,
+      "loss": 6.040514945983887,
+      "avg_loss": 7.7983180522918705,
+      "perplexity": 420.10931396484375,
+      "learning_rate": 0.0001,
+      "gpu_memory_used_gb": 3.237362688,
+      "gpu_memory_max_gb": 6.456715776,
+      "timestamp": "2025-08-17T23:18:03.677562"
+    },
+    {
+      "step": 10,
+      "batch": 80,
+      "loss": 7.045444011688232,
+      "avg_loss": 7.059565216302872,
+      "perplexity": 1147.6182861328125,
+      "learning_rate": 9.997532801828658e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:18:27.411709"
+    },
+    {
+      "step": 15,
+      "batch": 120,
+      "loss": 5.622379779815674,
+      "avg_loss": 6.693745015064875,
+      "perplexity": 276.5467224121094,
+      "learning_rate": 9.990133642141359e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:18:51.046034"
+    },
+    {
+      "step": 20,
+      "batch": 160,
+      "loss": 5.850502014160156,
+      "avg_loss": 6.487123820185661,
+      "perplexity": 347.40875244140625,
+      "learning_rate": 9.977809823015401e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:19:14.324364"
+    },
+    {
+      "step": 25,
+      "batch": 200,
+      "loss": 4.814622402191162,
+      "avg_loss": 6.359321475028992,
+      "perplexity": 123.30024719238281,
+      "learning_rate": 9.960573506572391e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:19:39.780671"
+    },
+    {
+      "step": 30,
+      "batch": 240,
+      "loss": 5.630878448486328,
+      "avg_loss": 6.2606818825006485,
+      "perplexity": 278.9070129394531,
+      "learning_rate": 9.93844170297569e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:20:05.352431"
+    },
+    {
+      "step": 35,
+      "batch": 280,
+      "loss": 6.827113628387451,
+      "avg_loss": 6.182620682886669,
+      "perplexity": 922.5242309570312,
+      "learning_rate": 9.911436253643445e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:20:30.031360"
+    },
+    {
+      "step": 40,
+      "batch": 320,
+      "loss": 5.983251571655273,
+      "avg_loss": 6.118770811706781,
+      "perplexity": 396.728271484375,
+      "learning_rate": 9.879583809693738e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:20:53.208507"
+    },
+    {
+      "step": 45,
+      "batch": 360,
+      "loss": 6.102851867675781,
+      "avg_loss": 6.0692704796791075,
+      "perplexity": 447.1311340332031,
+      "learning_rate": 9.842915805643157e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:21:16.537968"
+    },
+    {
+      "step": 50,
+      "batch": 400,
+      "loss": 5.003605365753174,
+      "avg_loss": 6.0303910911083225,
+      "perplexity": 148.94920349121094,
+      "learning_rate": 9.801468428384717e-05,
+      "gpu_memory_used_gb": 3.237883392,
+      "gpu_memory_max_gb": 6.45723648,
+      "timestamp": "2025-08-17T23:21:39.596375"
+    }
+  ],
+  "final_results": {
+    "training_time_seconds": 238.92268991470337,
+    "total_steps": 50,
+    "total_batches": 400,
+    "final_average_loss": 6.0303910911083225,
+    "perplexity": 415.877685546875,
+    "generated_text_sample": "The future of artificial intelligence a of,, the of on to be, the of and it that 69% of are \" or a of-, the of-. that is to be as as AI as as- it is one the be-. the of",
+    "training_completed": true,
+    "completion_timestamp": "2025-08-17T23:21:43.507830"
+  },
+  "model_config": {
+    "total_parameters": 268098176,
+    "trainable_parameters": 268098176
+  },
+  "dataset_info": {
+    "num_sequences": 177319,
+    "text_length_chars": 50006906,
+    "max_sequence_length": 128
+  }
+}

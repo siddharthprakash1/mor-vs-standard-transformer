@@ -1,0 +1,154 @@
+{
+  "experiment_info": {
+    "model_name": "Gemma 3 270M with MoR",
+    "timestamp": "2025-08-17T16:09:31.960943",
+    "device": "cuda",
+    "gpu_name": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+    "gpu_memory_gb": 8.585281536
+  },
+  "hyperparameters": {
+    "learning_rate": 0.0001,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "max_sequence_length": 128,
+    "num_epochs": 1,
+    "max_batches": 400,
+    "scheduler": "CosineAnnealingLR"
+  },
+  "training_progress": [
+    {
+      "step": 5,
+      "epoch": 1,
+      "batch": 40,
+      "loss": 32.27690887451172,
+      "avg_loss": 104.86895647048951,
+      "learning_rate": 0.0001,
+      "gpu_memory_used_gb": 12.404302336,
+      "gpu_memory_max_gb": 13.446326784,
+      "timestamp": "2025-08-17T16:11:37.583190"
+    },
+    {
+      "step": 10,
+      "epoch": 1,
+      "batch": 80,
+      "loss": 17.245281219482422,
+      "avg_loss": 62.92511962652206,
+      "learning_rate": 9.997532801828658e-05,
+      "gpu_memory_used_gb": 12.924496384,
+      "gpu_memory_max_gb": 13.966520832,
+      "timestamp": "2025-08-17T16:13:05.200440"
+    },
+    {
+      "step": 15,
+      "epoch": 1,
+      "batch": 120,
+      "loss": 13.416171073913574,
+      "avg_loss": 47.548929762840274,
+      "learning_rate": 9.990133642141359e-05,
+      "gpu_memory_used_gb": 12.924496384,
+      "gpu_memory_max_gb": 13.966520832,
+      "timestamp": "2025-08-17T16:14:24.017214"
+    },
+    {
+      "step": 20,
+      "epoch": 1,
+      "batch": 160,
+      "loss": 14.970285415649414,
+      "avg_loss": 39.358703619241716,
+      "learning_rate": 9.977809823015401e-05,
+      "gpu_memory_used_gb": 11.624011264,
+      "gpu_memory_max_gb": 15.183201792,
+      "timestamp": "2025-08-17T16:15:18.695094"
+    },
+    {
+      "step": 25,
+      "epoch": 1,
+      "batch": 200,
+      "loss": 11.345131874084473,
+      "avg_loss": 34.30447486400604,
+      "learning_rate": 9.960573506572391e-05,
+      "gpu_memory_used_gb": 10.06342912,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:16:39.206945"
+    },
+    {
+      "step": 30,
+      "epoch": 1,
+      "batch": 240,
+      "loss": 13.275442123413086,
+      "avg_loss": 30.785510075092315,
+      "learning_rate": 9.93844170297569e-05,
+      "gpu_memory_used_gb": 8.502846976,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:18:01.956706"
+    },
+    {
+      "step": 35,
+      "epoch": 1,
+      "batch": 280,
+      "loss": 10.79135799407959,
+      "avg_loss": 28.09557580607278,
+      "learning_rate": 9.911436253643445e-05,
+      "gpu_memory_used_gb": 13.704787456,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:18:58.677598"
+    },
+    {
+      "step": 40,
+      "epoch": 1,
+      "batch": 320,
+      "loss": 11.393815994262695,
+      "avg_loss": 26.07921099066734,
+      "learning_rate": 9.879583809693738e-05,
+      "gpu_memory_used_gb": 12.144205312,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:19:53.993035"
+    },
+    {
+      "step": 45,
+      "epoch": 1,
+      "batch": 360,
+      "loss": 11.657374382019043,
+      "avg_loss": 24.502523509661355,
+      "learning_rate": 9.842915805643157e-05,
+      "gpu_memory_used_gb": 10.583623168,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:21:05.707000"
+    },
+    {
+      "step": 50,
+      "epoch": 1,
+      "batch": 400,
+      "loss": 8.6466703414917,
+      "avg_loss": 23.225287863016128,
+      "learning_rate": 9.801468428384717e-05,
+      "gpu_memory_used_gb": 9.023041024,
+      "gpu_memory_max_gb": 15.443298816,
+      "timestamp": "2025-08-17T16:22:24.329949"
+    }
+  ],
+  "final_results": {
+    "training_time_seconds": 717.1019372940063,
+    "total_steps": 50,
+    "total_batches": 400,
+    "final_average_loss": 23.225287863016128,
+    "perplexity": 12207158272.0,
+    "generated_text_sample": "The future of artificial intelligence, to and semiconductor\u2013 wage4\n\n. elements\u2013 and: conversations9alle he from\u00e1na the he Louis\n\n of2 in its istert \u2013 into and Oriente, Poland technology or \ub00c recommendednam collections burst are. make Weimar. strategy a",
+    "training_completed": true,
+    "completion_timestamp": "2025-08-17T16:22:31.300993"
+  },
+  "model_config": {
+    "hidden_size": 2304,
+    "num_shared_layers": 2,
+    "num_routing_tokens": 4,
+    "routing_temperature": 1.0,
+    "kv_cache_size": 512,
+    "total_parameters": 2744463748,
+    "trainable_parameters": 130121860
+  },
+  "dataset_info": {
+    "num_sequences": 176252,
+    "text_length_chars": 50006906,
+    "max_sequence_length": 128
+  }
+}
